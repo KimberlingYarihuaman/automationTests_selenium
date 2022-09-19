@@ -1,0 +1,72 @@
+{
+  "Login Button": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/header/nav/div/div/div[1]/div[2]/section/div/div[3]/a/span"
+  },
+
+  "Sign in with Email": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div[5]/div[1]/div/div[3]/a/span"
+  },
+
+  "Email": {
+    "GetFieldBy": "id",
+    "ValueToFind": "userSigninForm_email"
+  },
+
+  "Password": {
+    "GetFieldBy": "id",
+    "ValueToFind": "userSigninForm_password"
+  },
+
+  "Sign in": {
+    "GetFieldBy": "id",
+    "ValueToFind": "userSigninForm_btnSignup"
+  },
+
+  "Error Email": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='userSigninForm_email-error']/div[2]"
+  },
+
+  "Error Password": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='userSigninForm_password-error']/div[2]"
+  },
+
+  "Keep Connected": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div[5]/div[1]/form/span/label/input"
+  },
+
+  "Entertainment Button": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/header/nav/div/div/div[2]/div[2]/ul/li[2]/button"
+  },
+
+  "Movies Option": {
+    "GetFieldBy": "linkText",
+    "ValueToFind": "Movies"
+  },
+
+  "Load More": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='category-page-list-related-load-more-button']"
+  },
+
+  "Advertise": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/footer/div/div[1]/nav/section[2]/ul/li[2]/a"
+  },
+
+  "Logo": {
+  "GetFieldBy": "xpath",
+  "ValueToFind": "/html/body/header/nav/div/div/div[1]/div[1]/a[2]"
+  },
+
+  "Announcement Button": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/header/nav/div/div/div[1]/div[1]/a[2]"
+  }
+
+}

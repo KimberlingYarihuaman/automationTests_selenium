@@ -1,0 +1,107 @@
+{
+  "Create Account": {
+    "GetFieldBy": "id",
+    "ValueToFind": "CreateAccountButton"
+  },
+
+  "Email": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RegistrationEmail"
+  },
+
+  "Password": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RegistrationPassword"
+  },
+
+  "Confirm Password": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RegistrationConfirmPassword"
+  },
+
+  "Name": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RegistrationFirstName"
+  },
+
+  "Last Name": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RegistrationLastName"
+  },
+
+  "Identification Document": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RegistrationDocumentId"
+  },
+
+  "Address": {
+    "GetFieldBy": "id",
+    "ValueToFind": "ShippingAddress1"
+  },
+
+  "Completed Address": {
+    "GetFieldBy": "id",
+    "ValueToFind": "ShippingAddress2"
+  },
+
+  "Phone Number": {
+    "GetFieldBy": "id",
+    "ValueToFind": "RegistrationContactNumber"
+  },
+
+  "Cookies": {
+    "GetFieldBy": "class",
+    "ValueToFind": "optanon-allow-all accept-cookies-button"
+  },
+
+  "Error Email": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[1]/div[1]/div/div[2]/span/span"
+  },
+
+  "Error Password": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[1]/div[2]/div/div/span/span"
+  },
+
+  "Error Confirm Password": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[1]/div[3]/div/div/span/span"
+  },
+
+  "Error Name": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[2]/div[1]/div[1]/div/div/span/span",
+  },
+
+  "Error Last Name": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[2]/div[1]/div[2]/div/div/span/span"
+  },
+
+  "Error Identification Document": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[2]/div[3]/div/div/span/span"
+  },
+
+  "Error Address": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[2]/async-block/div[1]/div/div/span/span"
+  },
+
+  "Error Completed Address": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[2]/async-block/div[2]/div/div/span/span"
+  },
+
+  "Error Phone Number": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='RegistrationForm']/div[1]/div[2]/div[5]/div/div[2]/span/span"
+  },
+
+  "Cookies Button": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div[1]/div[2]/div[4]/div[2]/div/button"
+  }
+
+}

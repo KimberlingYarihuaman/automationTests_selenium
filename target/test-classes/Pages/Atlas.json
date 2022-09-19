@@ -1,0 +1,93 @@
+{
+
+  "Accept cookies": {
+    "GetFieldBy": "id",
+    "ValueToFind": "preferences_prompt_submit"
+  },
+
+  "Full Name": {
+    "GetFieldBy": "id",
+    "ValueToFind": "yourName"
+  },
+
+  "Error Full Name": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='textInput-yourName__error']"
+  },
+
+  "Title": {
+    "GetFieldBy": "id",
+    "ValueToFind": "title"
+  },
+
+  "Email": {
+  "GetFieldBy": "id",
+  "ValueToFind": "email"
+},
+
+  "Error Email": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='textInput-email__error']"
+  },
+
+  "Phone": {
+    "GetFieldBy": "id",
+    "ValueToFind": "phone"
+  },
+
+  "Error Phone": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='textInput-phone__error']"
+  },
+
+  "Check Phone": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='main']/div[1]/section/div[2]/div/form/fieldset/div[2]/label"
+  },
+
+  "HCP": {
+    "GetFieldBy": "id",
+    "ValueToFind": "hcpType"
+  },
+
+  "Subject": {
+    "GetFieldBy": "id",
+    "ValueToFind": "subject"
+  },
+
+  "Error Subject": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='dropdownInput-subject__error']"
+  },
+
+  "Option Subject": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='main']/div[1]/section/div[2]/div/form/div[6]/div/div/div[1]"
+  },
+
+  "Details": {
+    "GetFieldBy": "id",
+    "ValueToFind": "details"
+  },
+
+  "Error Details": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='textArea-details__error']"
+  },
+
+  "Submit": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='main']/div[1]/section/div[2]/div/form/button"
+  },
+
+  "Contact Us": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='__next']/div/footer/div/ul/li[3]/a"
+  },
+
+  "Result": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "///*[@id='main']/div/section/header/h1"
+  }
+
+}

@@ -1,0 +1,68 @@
+{
+
+  "Email": {
+    "GetFieldBy": "id",
+    "ValueToFind": "email"
+  },
+
+  "Password": {
+    "GetFieldBy": "id",
+    "ValueToFind": "password"
+  },
+
+  "Confirm Password": {
+    "GetFieldBy": "name",
+    "ValueToFind": "password_confirmation"
+  },
+
+  "Name": {
+    "GetFieldBy": "id",
+    "ValueToFind": "first_name"
+  },
+
+  "Last Name": {
+    "GetFieldBy": "id",
+    "ValueToFind": "last_name"
+  },
+
+  "Country": {
+    "GetFieldBy": "id",
+    "ValueToFind": "select-countries"
+  },
+
+  "Terms and Conditions": {
+    "GetFieldBy": "id",
+    "ValueToFind": "terms_and_conditions_subscribers"
+  },
+
+  "Register": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id='frm']/div[11]/div/button"
+  },
+
+  "Welcome Message": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/section/div/div/div/div[2]/div/div[1]/h2"
+  },
+
+  "Login Email": {
+    "GetFieldBy": "name",
+    "ValueToFind": "email"
+  },
+
+  "Login Password": {
+    "GetFieldBy": "name",
+    "ValueToFind": "password"
+  },
+
+  "Login": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/div/div/div[3]/div/form/button/span[2]"
+  },
+
+  "Logout": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/section/div/div/div/ul/li[4]/a"
+  }
+
+}
